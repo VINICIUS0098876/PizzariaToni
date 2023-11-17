@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+height: 100vh;
+background: url(./img/Tela\ Inicial.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 140px;
+    /* background-color: #F27706; */
+    display: flex;
+    align-items: end;
+    padding: 0px 20px;
+}
+
+main{
+    height: 35vh;
+    color: #ffff;
+    margin-top: 80px;
+}
+main .info{
+    width: 100%;
+    height: 80%;
+    padding: 0px 20px;
+    font-weight: 200;
+}
+
+main .cadastro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+
+
+input{
+    border: none;
+    background-color: transparent;
+    border-radius: 2px;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+main .esqueceu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+
+.esqueceu a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.esqueceu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .info2{
+    margin-top: 70px;
+}
+
+.info2 button{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.info2 p{
+    color: #ffff;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
