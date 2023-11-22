@@ -72,7 +72,7 @@ header{
 }
 
 main{
-    min-height: 80%;
+    min-height: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -109,16 +109,112 @@ main .categoria{
     gap: 10px;
     justify-content: center;
 }
-
-.pizza1{
+.precoPizza{
+    color: #FFFFFF;
+    background-color: #F01212;
+    width: fit-content;
+    border-radius: 16px;
+    padding: 4px;
+}
+.nomePizza{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 80%;
+    font-size: 80%;
+    padding: 4px;
+    border-bottom-left-radius: 16px;
+}
+.pizza{
     width: 150px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+}
+.pizza:nth-child(1){
     background: url(./img/Rectangle\ 6.png);
 }
 
-.pizza2{
-    width: 150px;
-    height: 100px;
+.pizza:nth-child(2){
     background: url(./img/Rectangle\ 14.png);
 }
 
+.pizzas2{
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pizza01{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 160px;
+    height: 100px;
+    background: url(./img/Rectangle\ 16.png);
+}
+.pizza02{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 150px;
+    height: 100px;
+    background: url(./img/Rectangle\ 17.png);
+}
+
+/* BEBIDAS */
+
+.container{
+    height: 90px;
+    width: 340px;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+    border: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.preco{
+    background-color: #F01212;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 2px;
+    border-radius: 15px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+    z-index: 2;
+    background-color: #f5933d;
+    color: #fff;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
