@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(./img/pizza4\ 1.png);
+    background-repeat: no-repeat;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+main{
+    height: 70.2vh;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .titulo h2{
+    color: #6d6c6c;
+  }
+
+  .info{
+    padding: 0px 20px;
+  }
+
+  .info h2{
+    color: #23CB98;
+    padding: 5px 0px;
+  }
+
+  .info h2:hover{
+    color: #1b9470;
+  }
+
+  .info p{
+    padding-bottom: 5px;
+  }
+
+  .info img{
+    padding-bottom: 10px;
+  }
+
+  .titulo2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 20px;
+  }
+
+  .titulo2 h3{
+    color: #6d6c6c;
+  }
+
+  .comentarios{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 20px;
+    
+  }
+
+  .coment1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .coment1 .foto{
+    background: url(./img/Ellipse\ 7.png);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .text{
+    flex: 2;
+  }
+
+  .coment2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .coment2 .foto{
+    background: url(./img/Ellipse\ 8.png);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
