@@ -70,7 +70,27 @@ main .esqueceu{
     text-decoration: underline;
 }
 
+.entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+}
 
+.entrar button{
+    padding: 10px 60px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.entrar button a{
+    color: #F27706;
+    text-decoration: none;
+    font-weight: 600;
+}
 
 footer{
     height: 29vh;
@@ -80,8 +100,11 @@ footer{
 }
 
 
-footer .info2{
-    margin-top: 70px;
+.info2{
+    position: absolute;
+    margin-top: 100px;
+    left: 90px;
+    bottom: 40px;
 }
 
 .info2 button{
@@ -101,4 +124,130 @@ footer .info2{
     color: #ffff;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+
+@media screen and (min-width: 1200px){
+    body{
+        height: 100vh;
+        background: url(./img/tela.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        header{
+            width: 100%;
+            height: 120px;
+            background-color: #F27706;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+            
+        }
+
+        main{
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            /* height: 35vh; */
+            color: #ffff;
+            margin-top: 80px;
+        }
+
+        main .info{
+            /* width: 100%; */
+            /* height: 60%; */
+            padding: 0px 20px;
+            /* padding-right: 950px; */
+            padding-left: 100px;
+            font-weight: 200;
+            font-size: 24px;
+        }
+
+        main .cadastro{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 40px 40px;
+            background-color: #f278067e;
+            height: 400px;
+            width: 500px;
+            margin-right: 300px;
+            margin-top: 50px;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 24px;
+        }
+
+        .info2{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            padding-left: 200px;
+            font-size: 24px;
+        }
+
+        .info2 p{
+            color: #C2C2C2;
+        }
+
+        .info2 a{
+            display: block;
+            transition: 0.5s ease;
+            color: #F27706;
+        }
+
+        .info2 button{
+            margin-left: 30px;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: white;
+            border: none;
+            border-radius: 8PX;
+            transition: 0.5s ease;
+        }
+
+        .info2 button:hover{
+            background-color: #F27706;
+            transform: scale(1.1);
+        }
+
+         button a:hover{
+            color: white;
+        }
+
+        .entrar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .entrar button{
+            padding: 10px 60px;
+            background-color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        .entrar button:hover{
+            background-color: #F27706;
+            transform: scale(1.1);
+            color: #fff;
+        }
+
+        .entrar button a{
+            color: #F27706;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 24PX;
+        }
+        
+        .entrar button a:hover{
+            color: white;
+        }
+
 }
