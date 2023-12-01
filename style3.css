@@ -219,3 +219,228 @@ footer>div{
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (min-width: 1200px){
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #f5933d, rgb(247, 246, 246));
+}
+
+header{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.home span{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.home h2{
+    font-size: 20px;
+}
+
+.perfil{
+    background: url(./img/caua.png);
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pesquisa{
+    height: 50px;
+    display: flex;
+    padding: 0PX 20PX;
+}
+
+.pesquisa .text{
+    border: 2px solid black;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+
+.pesquisa .search{
+    width: 55px;
+    background: url(./img/lupa.png);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+}
+
+main{
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .categoria{
+    padding: 0px 21px;
+    width: 100%;
+    height: 30px;
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons button{
+    display: flex;
+    padding: 10px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo{
+    padding: 10px 21px;
+    color: #fff;
+}
+
+.pizzas{
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.precoPizza{
+    color: #FFFFFF;
+    background-color: #F01212;
+    width: fit-content;
+    border-radius: 16px;
+    padding: 4px;
+}
+.nomePizza{
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 80%;
+    font-size: 80%;
+    padding: 4px;
+    border-bottom-left-radius: 16px;
+}
+.pizza{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+}
+.pizza:nth-child(1){
+    background: url(./img/Rectangle\ 6.png);
+}
+
+.pizza:nth-child(2){
+    background: url(./img/Rectangle\ 14.png);
+}
+
+.pizzas2{
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pizza01{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 160px;
+    height: 100px;
+    background: url(./img/Rectangle\ 16.png);
+}
+.pizza02{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 16px;
+    width: 150px;
+    height: 100px;
+    background: url(./img/Rectangle\ 17.png);
+}
+
+/* BEBIDAS */
+
+.container{
+    height: 90px;
+    width: 340px;
+    background-color: #fff;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 30px;
+    border: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.preco{
+    background-color: #F01212;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 2px;
+    border-radius: 15px;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+    z-index: 2;
+    background-color: #f5933d;
+    color: #fff;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+}

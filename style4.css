@@ -114,3 +114,96 @@ header{
     font-weight: 600;
     text-decoration: none;
   }
+
+  @media screen and (min-width: 1200px){
+    body{
+        background: url(./img/Group\ 49.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header{
+        width: 100%;
+        background-color: #FF7A00;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navbar{
+        font-size: 20px;
+    }
+
+    main{
+        /* display: flex; */
+        width: 40%;
+        height: 80vh;
+        margin-left: 20px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background-color: #ff7b0082;
+        border: 2px solid #fff;
+    }
+
+    .info input{
+        background: transparent;
+        color: #fff;
+    }
+
+    .info label{
+        color: #ffffff;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 90px; */
+    }
+
+    .foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .foto img{
+        position: absolute;
+        bottom: 57px;
+        left: 840px;
+        width: 60px;
+    }
+    
+    #picture__input {
+        display: none;
+      }
+      
+      .picture {
+        position: absolute;
+        top: 200px;
+        right: 300px;
+        width: 224px;
+        height: 224px;
+        background: url(./img/Person.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #aaa;
+        cursor: pointer;
+        font-family: sans-serif;
+        outline: none;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+      
+      .picture__img {
+        max-width: 100%;
+      }
+
+  }
