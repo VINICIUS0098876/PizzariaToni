@@ -146,6 +146,12 @@ main .categoria{
     display: flex;
     gap: 10px;
     justify-content: center;
+    color: #fff;
+}
+
+.pizza01 .nomePizza a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .pizza01{
@@ -211,6 +217,11 @@ footer{
     z-index: 2;
     background-color: #f5933d;
     color: #fff;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 
 footer>div{

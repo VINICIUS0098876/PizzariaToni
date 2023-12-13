@@ -21,8 +21,9 @@ header{
     gap: 20px;
 }
 
-.navbar h3{
+.navbar h3 a{
     color: #ffffff;
+    text-decoration: none;
 }
 
 .foto{
